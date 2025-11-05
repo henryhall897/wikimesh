@@ -1,8 +1,8 @@
 ---
-title: Public Wiki
-description: Publicly available wiki articles for henryhalldev.com
+title: Public WikiMesh
+description: Publicly available wiki articles for WikiMesh
 published: true
-date: 2025-10-15T01:18:02.471Z
+date: 2025-11-05T03:59:18.602Z
 tags: overview, public
 editor: markdown
 dateCreated: 2025-10-15T01:18:02.471Z

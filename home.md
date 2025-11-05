@@ -2,7 +2,7 @@
 title: WikiMesh
 description: A federated Decentralized Wiki Network Mesh allowing shared knowledge amongst contributors
 published: true
-date: 2025-11-05T03:47:30.665Z
+date: 2025-11-05T03:49:12.540Z
 tags: index
 editor: markdown
 dateCreated: 2025-10-03T15:11:07.375Z
@@ -31,7 +31,7 @@ In short, **WikiMesh** is like a distributed library — each node maintains its
 ---
 
 ## Structure
-**WikiMesh** Primarily focuses on self hosted projects by contributors to create a wide network of information greater than any one person can do by themselves. 
+**WikiMesh** Primarily focuses on self hosted projects by contributors to create a wide network of information greater than any one person can gather by themselves. 
 Knowledge in **WikiMesh** is organized into consistent categories:
 
 - **Selfhosted:** Documentation and guides for running your own apps and services.  

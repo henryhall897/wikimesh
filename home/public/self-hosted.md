@@ -2,39 +2,36 @@
 title: Self Hosted
 description: Everything to Know About Self Hosting a homelab
 published: true
-date: 2025-11-05T04:15:49.885Z
+date: 2025-11-05T04:18:27.911Z
 tags: public, selfhosted
 editor: markdown
 dateCreated: 2025-11-05T04:13:34.901Z
 ---
 
-🏠 Self-Hosted
-Everything You Need to Know About Running Your Own Homelab
+# Self-Hosted
+## Everything You Need to Know About Running Your Own Homelab
 
-Self-hosting is about taking control of your digital environment — running your own services, managing your own infrastructure, and learning by building.
+Self-hosting is about taking control of your digital environment — running your own services, managing your own infrastructure, maintaining your privacy, and learning by building.
+
 This section of WikiMesh serves as a comprehensive introduction for anyone who wants to host, document, and share their own stack as part of the federated WikiMesh network.
 
-🌐 Why Self-Host?
+## Why Self-Host?
 
 Self-hosting isn’t just about privacy or independence — it’s about understanding the systems you rely on.
-By running your own stack, you gain:
-
-Full data ownership — no vendor lock-in or third-party analytics.
-
-Customizability — tailor services to your workflow and security standards.
-
-Educational value — every deployment teaches networking, storage, automation, and maintenance.
-
-Resilience — when you host it, you control uptime, backups, and recovery.
+### By running your own stack, you gain:
+* Full data ownership — no vendor lock-in or third-party analytics.
+* Customizability — tailor services to your workflow and security standards.
+* Educational value — every deployment teaches networking, storage, automation, and maintenance.
+* Resilience — when you host it, you control uptime, backups, and recovery.
 
 The Self-Hosted section of WikiMesh is a guidebook and community knowledge base for builders, tinkerers, and system owners who want to do it right.
 
-🧩 Key Building Blocks
+## Key Building Blocks
 
 Self-hosting isn’t one topic — it’s a system of systems.
 The following high-level categories form the foundation of any serious homelab or self-hosted platform.
 
-⚙️ Infrastructure
+### Infrastructure
 
 Your backbone — covering compute, networking, storage, and security.
 Topics include:

@@ -2,7 +2,7 @@
 title: WikiMesh
 description: A federated Decentralized Wiki Network Mesh allowing shared knowledge amongst contributors
 published: true
-date: 2025-11-05T03:50:32.826Z
+date: 2025-11-05T03:57:52.916Z
 tags: index
 editor: markdown
 dateCreated: 2025-10-03T15:11:07.375Z
@@ -53,4 +53,6 @@ The goal is to make knowledge **durable, decentralized, and personally owned**, 
 ---
 
 ## What next?
-### [Public Wiki Articles](/public)
+### [Public Wiki](/public)
+
+### [Private Wiki - Auth Required](/home/private)

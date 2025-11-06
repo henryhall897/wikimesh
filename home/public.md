@@ -2,7 +2,7 @@
 title: Public WikiMesh
 description: Publicly available wiki articles for WikiMesh
 published: true
-date: 2025-11-05T04:11:39.931Z
+date: 2025-11-06T02:31:27.269Z
 tags: overview, public
 editor: markdown
 dateCreated: 2025-10-15T01:18:02.471Z
@@ -59,7 +59,7 @@ Read existing guides, mirror the structure, and begin drafting your own content.
 When you’re ready, you can register your wiki node with the federation. Currently accepting known applicants only. Should already know atleast one contributor. May change policy to allow automatic self service joins at some point in the future. 
 
 ## What next?
-* Browse the Self-Hosted Guides
+* Browse the [Self-Hosted Guides](/home/public/self-hosted)
 
 
 > Every new node makes the mesh stronger. Start by documenting what you already know — and let others learn from your build.

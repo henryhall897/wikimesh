@@ -2,10 +2,10 @@
 title: Infrastructure Overview
 description: Infrastructure of Homelab
 published: true
-date: 2025-10-31T22:26:36.056Z
-tags: overview, public, infrastructure
+date: 2025-11-07T01:13:59.286Z
+tags: overview, infrastructure, public
 editor: markdown
-dateCreated: 2025-10-19T17:02:33.468Z
+dateCreated: 2025-10-13T15:38:31.112Z
 ---
 
 # Infrastructure Overview
@@ -22,7 +22,7 @@ dateCreated: 2025-10-19T17:02:33.468Z
 * Enable automation and observability across all components
 
 ## Core Components
-### 1. [Hardware](/public/infrastructure/hardware)
+### 1.[Hardware](/home/public/selfhosted/infrastructure/hardware)
 The **physical backbone** of the homelab, spanning local and remote nodes:
 
 * Raspberry Pi cluster (control-plane and worker nodes)
@@ -32,9 +32,9 @@ The **physical backbone** of the homelab, spanning local and remote nodes:
 
 Network devices such as routers, MoCA adapters, and managed switches
 
-> 🔗 See [Hardware Overview](/public/infrastructure/hardware)
+> 🔗 See [Hardware Overview](/home/public/selfhosted/infrastructure//hardware)
 
-### 2. [Operating Systems](/public/infrastructure/os)
+### 2. [Operating Systems](/home/public/selfhosted/infrastructure//os)
 
 Each node runs a *hardened, minimal Linux base* — primarily **Ubuntu Server** — configured for reliability and low resource overhead.
 
@@ -44,20 +44,20 @@ Each node runs a *hardened, minimal Linux base* — primarily **Ubuntu Server** 
 * UFW and kernel-level network security
 * Automated updates and SSH hardening
 
-> 🔗 See [Operating Systems Overview](/public/infrastructure/os)
+> 🔗 See [Operating Systems Overview](/home/public/selfhosted/infrastructure//os)
 
-### 3. [Networking](/public/infrastructure/networking)
+### 3. [Networking](//home/public/selfhosted/infrastructure//networking)
 
 The **private communication backbone** that links all nodes and services.
 It uses WireGuard VPN to form an encrypted overlay network connecting the VPS, cluster nodes, and remote devices.
 
 #### Core elements include:
-* [WireGuard VPN](./infrastructure/networking/wireguard)
-* [VPS Gateway](./infrastructure/networking/vps)
-* [Firewall and traffic segmentation](./infrastructure/networking/firewall)
-* [DNS and domain management](./infrastructure/networking/dnsdomains)
+* [VPN]()
+* [VPS Gateway](/home/public/selfhosted/infrastructure/networking/vps)
+* [Firewall and traffic segmentation](/home/public/selfhosted/infrastructure/networking/firewall)
+* [DNS and domain management](/home/public/selfhosted/infrastructure/networking/dnsdomains)
 
-> 🔗 See [Networking Overview](/public/infrastructure/networking)
+> 🔗 See [Networking Overview](/home/public/selfhosted/infrastructure/networking)
 
 ## 4. Orchestration
 * The control layer responsible for deploying and managing workloads.

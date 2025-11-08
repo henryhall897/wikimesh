@@ -2,15 +2,15 @@
 title: Wireguard Overview
 description: Wireguard Overview
 published: true
-date: 2025-10-31T23:10:07.862Z
-tags: overview, networking, wireguard
+date: 2025-11-08T17:46:16.005Z
+tags: overview, wireguard, networking
 editor: markdown
-dateCreated: 2025-10-19T17:05:09.131Z
+dateCreated: 2025-10-04T20:45:03.410Z
 ---
 
 # WireGuard Overview
 
-[Overview](/public/infrastructure/networking/wireguard) - [Setup](/public/infrastructure/networking/wireguard/setup) - [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting) - [Commands](/public/infrastructure/networking/wireguard/commands) - [Ansible Automation]() #Todo add ansible article+link
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands) - [Ansible Automation]() #Todo add ansible article+link
 
 ---
 
@@ -125,6 +125,6 @@ Combined with a **cloud-hosted VPS gateway** and planned **Ansible automation**,
 ---
 
 ## Wireguard Articles
-[Overview](/public/infrastructure/networking/wireguard) - [Setup](/public/infrastructure/networking/wireguard/setup) - [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting) - [Commands](/public/infrastructure/networking/wireguard/commands)
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)
 
 ---

@@ -2,14 +2,14 @@
 title: Wireguard Troubleshooting
 description: Common Issues with Wireguard and how to solve them
 published: true
-date: 2025-10-11T00:30:42.246Z
+date: 2025-11-08T17:49:54.326Z
 tags: wireguard, networking, troubleshooting, infrastructure, public
 editor: markdown
 dateCreated: 2025-10-10T22:45:37.971Z
 ---
 
 # WireGuard Troubleshooting (Ubuntu) — Handshake + Routing
-
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)
 ## Scope: 
 For when peers won’t handshake or traffic won’t pass. Works for hub-and-spoke and mesh(VPS hub: 10.100.0.1, spokes like 10.100.0.2, 10.100.0.3).
 
@@ -258,7 +258,4 @@ PersistentKeepalive = 25
 * File perms too open; wg-quick/kernel refuses to load (chmod 600).
 * DNS set in [Interface] but unreachable per AllowedIPs.
 ## Wireguard Articles
-* [Overview](/public/infrastructure/networking/wireguard)
-* [Setup](/public/infrastructure/networking/wireguard/setup)
-* [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting)
-* [Commands](/public/infrastructure/networking/wireguard/commands)
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)

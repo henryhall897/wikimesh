@@ -2,14 +2,14 @@
 title: Wireguard Setup
 description: How to do initial wireguard setup
 published: true
-date: 2025-10-31T23:10:50.068Z
-tags: networking, wireguard, setup
+date: 2025-11-08T17:47:33.280Z
+tags: wireguard, networking, setup
 editor: markdown
-dateCreated: 2025-10-19T17:05:54.496Z
+dateCreated: 2025-10-10T15:28:50.620Z
 ---
 
 # WireGuard Setup (Ubuntu)
-[Overview](/public/infrastructure/networking/wireguard) - [Setup](/public/infrastructure/networking/wireguard/setup) - [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting) - [Commands](/public/infrastructure/networking/wireguard/commands)
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)
 
 ---
 
@@ -264,7 +264,7 @@ Repeat keygen on the new peer, create a PSK for that pair, add a [Peer] block on
 * Would cause more use on VPS. could lead to bottlenecks or extra charges
 
 ## Wireguard Articles
-* [Overview](/public/infrastructure/networking/wireguard)
-* [Setup](/public/infrastructure/networking/wireguard/setup)
-* [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting)
-* [Commands](/public/infrastructure/networking/wireguard/commands)
+* [Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard)
+* [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup)
+* [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting)
+* [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)

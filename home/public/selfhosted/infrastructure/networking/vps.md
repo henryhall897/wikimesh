@@ -2,7 +2,7 @@
 title: VPS (Virtual Private Server)
 description: Why incorporating a VPS is crucial to a homelab for public access
 published: true
-date: 2025-10-13T15:30:34.247Z
+date: 2025-11-08T17:51:35.590Z
 tags: overview, vps, networking
 editor: markdown
 dateCreated: 2025-10-08T02:53:25.900Z
@@ -10,7 +10,7 @@ dateCreated: 2025-10-08T02:53:25.900Z
 
 # VPS Gateway
 
-[← Back to Networking Overview](../networking) • [WireGuard Overview](./wireguard) • [Ansible Automation](./ansible-automation.md)
+[← Back to Networking Overview](../networking) • [WireGuard Overview](./vpn/wireguard) • [Ansible Automation](./ansible-automation.md)
 
 ---
 
@@ -112,7 +112,7 @@ The VPS and the homelab are connected by a persistent WireGuard tunnel:
 
 All traffic between these networks flows exclusively through WireGuard, ensuring encryption and endpoint authenticity.
 
-> 🔗 See [WireGuard Overview](/public/infrastructure/networking/wireguard) for details on the VPN configuration and topology.
+> 🔗 See [WireGuard Overview](./vpn/wireguard) for details on the VPN configuration and topology.
 
 ## Monitoring and Maintenance
 * Uptime Monitoring: Health checks for VPN and proxy endpoints using Uptime Kuma or Grafana.

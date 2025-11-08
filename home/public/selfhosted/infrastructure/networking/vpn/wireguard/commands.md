@@ -2,14 +2,14 @@
 title: Wireguard Commands
 description: A list of all Wireguard commands
 published: true
-date: 2025-10-30T15:08:18.219Z
-tags: public, infrastructure, networking, wireguard, commands
+date: 2025-11-08T17:50:27.634Z
+tags: wireguard, networking, infrastructure, public, commands
 editor: markdown
-dateCreated: 2025-10-19T17:05:39.959Z
+dateCreated: 2025-10-10T22:54:20.183Z
 ---
 
 # WireGuard Commands (Ubuntu) — Cheat Sheet
-[Overview](/public/infrastructure/networking/wireguard) - [Setup](/public/infrastructure/networking/wireguard/setup) - [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting) - [Commands](/public/infrastructure/networking/wireguard/commands)
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)
 
 ---
 
@@ -97,7 +97,4 @@ sudo apt install -y qrencode
 sudo qrencode -t ansiutf8 < /etc/wireguard/wg0.conf
 ``` 
 ## Wireguard Articles
-* [Overview](/public/infrastructure/networking/wireguard)
-* [Setup](/public/infrastructure/networking/wireguard/setup)
-* [Troubleshooting](/public/infrastructure/networking/wireguard/troubleshooting)
-* [Commands](/public/infrastructure/networking/wireguard/commands)
+[Overview](/home/public/selfhosted/infrastructure/networking/vpn/wireguard) - [Setup](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/setup) - [Troubleshooting](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/troubleshooting) - [Commands](/home/public/selfhosted/infrastructure/networking/vpn/wireguard/commands)

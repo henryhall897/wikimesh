@@ -1,8 +1,8 @@
 ---
 title: Ubuntu Server 24 LTS Overview
-description: Overview of how Ubuntu Server is used in the home lab 
+description: Overview of how Ubuntu Server is used in the home lab
 published: true
-date: 2025-10-17T21:13:27.471Z
+date: 2025-11-09T02:32:55.987Z
 tags: overview, infrastructure, public, os, ubuntu-server
 editor: markdown
 dateCreated: 2025-10-17T01:54:18.665Z
@@ -37,7 +37,7 @@ Each node is installed with a minimal image to reduce resource usage and attack 
 * Create a non-root user with sudo privileges
 * Enable OpenSSH for remote access
 
-> 🔗 See [Ubuntu Server Setup](/public/infrastructure/os/ubuntu-server/setup)
+> 🔗 See [Ubuntu Server Setup](./ubuntu-server/setup)
 
 ## 3. Security and Hardening Practices
 

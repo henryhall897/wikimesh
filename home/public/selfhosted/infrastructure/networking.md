@@ -2,7 +2,7 @@
 title: Networking Overview
 description: Overview of Networking of homelab
 published: true
-date: 2025-11-09T01:38:02.729Z
+date: 2025-11-09T01:40:04.943Z
 tags: overview
 editor: markdown
 dateCreated: 2025-10-08T02:47:51.188Z
@@ -10,7 +10,7 @@ dateCreated: 2025-10-08T02:47:51.188Z
 
 # Networking Overview
 
-[WireGuard](./networking/wireguard) • [VPS Gateway](./networking/vps) • [Firewall](./networking/firewall) • [DNS](./dns/local-dns.md)
+[WireGuard](./networking/vpn/wireguard) • [VPS Gateway](./networking/vps) • [Firewall](./networking/firewall) • [DNS](./dns/local-dns.md)
 
 ---
 
@@ -70,9 +70,9 @@ DNS plays a central role in routing both public and private traffic:
 
 This networking model combines **WireGuard for encryption**, **VPS for isolation**, and **firewalls for segmentation** to create a secure, modular, and future-proof environment.
 
-All public traffic is funneled through a hardened VPS, and all internal communication occurs through an encrypted private network, ensuring both security and flexibility across homelab services.
+All public traffic is funneled through a hardened VPS, and all intervpn/nal communication occurs through an encrypted private network, ensuring both security and flexibility across homelab services.
 
 ## Sub Articles  
-[Wireguard](/public/infrastructure/networking/wireguard) - [VPS](/public/infrastructure/networking/vps) - [Firewall](/public/infrastructure/networking/firewall) - [DNS and Domains](/public/infrastructure/networking/dnsdomains)
+[Wireguard](/public/infrastructure/networking/vpn/wireguard) - [VPS](/public/infrastructure/networking/vps) - [Firewall](/public/infrastructure/networking/firewall) - [DNS and Domains](/public/infrastructure/networking/dnsdomains)
 
 ---

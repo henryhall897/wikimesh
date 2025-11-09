@@ -2,7 +2,7 @@
 title: Infrastructure Overview
 description: Infrastructure of Homelab
 published: true
-date: 2025-11-07T01:13:59.286Z
+date: 2025-11-09T02:12:33.942Z
 tags: overview, infrastructure, public
 editor: markdown
 dateCreated: 2025-10-13T15:38:31.112Z
@@ -46,13 +46,13 @@ Each node runs a *hardened, minimal Linux base* — primarily **Ubuntu Server** 
 
 > 🔗 See [Operating Systems Overview](/home/public/selfhosted/infrastructure//os)
 
-### 3. [Networking](//home/public/selfhosted/infrastructure//networking)
+### 3. [Networking](/home/public/selfhosted/infrastructure//networking)
 
 The **private communication backbone** that links all nodes and services.
 It uses WireGuard VPN to form an encrypted overlay network connecting the VPS, cluster nodes, and remote devices.
 
 #### Core elements include:
-* [VPN]()
+* [VPN](/home/public/selfhosted/infrastructure/networking/vpn)
 * [VPS Gateway](/home/public/selfhosted/infrastructure/networking/vps)
 * [Firewall and traffic segmentation](/home/public/selfhosted/infrastructure/networking/firewall)
 * [DNS and domain management](/home/public/selfhosted/infrastructure/networking/dnsdomains)

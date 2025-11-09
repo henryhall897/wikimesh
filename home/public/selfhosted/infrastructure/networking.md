@@ -2,7 +2,7 @@
 title: Networking Overview
 description: Overview of Networking of homelab
 published: true
-date: 2025-10-13T15:26:36.812Z
+date: 2025-11-09T01:38:02.729Z
 tags: overview
 editor: markdown
 dateCreated: 2025-10-08T02:47:51.188Z
@@ -31,7 +31,7 @@ It is designed to:
 ### 1. WireGuard VPN
 A lightweight, kernel-level VPN that forms the encrypted backbone of the homelab network.  
 It connects home servers, VPS gateways, and remote devices under a single private subnet.  
-> 🔗 See [WireGuard Overview](./networking/wireguard)
+> 🔗 See [WireGuard Overview](./networking/vpn/wireguard)
 
 ---
 

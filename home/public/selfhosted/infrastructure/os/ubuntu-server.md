@@ -2,7 +2,7 @@
 title: Ubuntu Server 24 LTS Overview
 description: Overview of how Ubuntu Server is used in the home lab
 published: true
-date: 2025-11-09T02:32:55.987Z
+date: 2025-11-13T02:56:02.393Z
 tags: overview, infrastructure, public, os, ubuntu-server
 editor: markdown
 dateCreated: 2025-10-17T01:54:18.665Z
@@ -50,7 +50,7 @@ Ubuntu nodes follow a least-privilege and defense-in-depth model to comply with 
 * Kernel hardening — Apply sysctl and seccomp restrictions
 * Automated upgrades — Unattended package and security patching
 
-> 🔗 See [Hardening Overview](/public/infrastructure/os/ubuntu-server/hardening)
+> 🔗 See [Hardening Overview](/home/public/selfhosted/infrastructure/os/ubuntu-server/hardening)
 
 ## 4. Integration with Cluster and Automation
 

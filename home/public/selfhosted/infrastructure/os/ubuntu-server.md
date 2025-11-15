@@ -2,7 +2,7 @@
 title: Ubuntu Server 24 LTS Overview
 description: Overview of how Ubuntu Server is used in the home lab
 published: true
-date: 2025-11-13T02:56:02.393Z
+date: 2025-11-15T19:18:06.283Z
 tags: overview, infrastructure, public, os, ubuntu-server
 editor: markdown
 dateCreated: 2025-10-17T01:54:18.665Z
@@ -72,4 +72,4 @@ Ubuntu Server 24.04 LTS provides a robust, predictable, and secure base layer fo
 Its combination of community support, strong security defaults, and ecosystem compatibility makes it the ideal choice for a long-term, maintainable cluster foundation.
 
 ## Ubuntu Server Articles
-[Setup](/public/infrastructure/os/ubuntu-server/setup) - [Flashusb](/public/infrastructure/os/ubuntu-server/flashusb) - [Hardening](/public/infrastructure/os/ubuntu-server/hardening)
+[Setup](/home/public/selfhosted/infrastructure/os/ubuntu-server/setup) - [Flashusb](/home/public/selfhosted/infrastructure/os/ubuntu-server/flashusb) - [Hardening](/home/public/selfhosted/infrastructure/os/ubuntu-server/hardening)

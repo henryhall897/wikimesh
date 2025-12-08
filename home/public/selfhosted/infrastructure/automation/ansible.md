@@ -2,7 +2,7 @@
 title: Ansible Overview
 description: An overview of Ansible and its purpose as an infrastructure piece 
 published: true
-date: 2025-12-08T12:46:15.451Z
+date: 2025-12-08T12:48:45.774Z
 tags: infrastructure, public, selfhosted, home, automation, ansible
 editor: markdown
 dateCreated: 2025-12-08T12:46:15.451Z
@@ -127,12 +127,12 @@ This overview acts as the gateway to more detailed sections:
 
 #### Quick Example: Ping a Host
 ```
-ansible cluster1 -m ping
+ansible example -m ping
 ```
 
 ##### Output:
 ```
-cluster1 | SUCCESS => { "ping": "pong" }
+example | SUCCESS => { "ping": "pong" }
 ```
 
 This validates SSH access, user configuration, and inventory correctness.

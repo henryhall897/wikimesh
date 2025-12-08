@@ -2,7 +2,7 @@
 title: Infrastructure Overview
 description: Infrastructure of Homelab
 published: true
-date: 2025-11-09T02:12:33.942Z
+date: 2025-12-08T12:32:17.209Z
 tags: overview, infrastructure, public
 editor: markdown
 dateCreated: 2025-10-13T15:38:31.112Z
@@ -83,7 +83,7 @@ It uses WireGuard VPN to form an encrypted overlay network connecting the VPS, c
 * Custom shell orchestrators for app-specific automation (e.g., Factorio, Minecraft)
 * Plans for integration with GitHub Actions for CI/CD and updates
 
-🔗 See Automation Overview
+> See [Automation Overview](/home/public/selfhosted/infrastructure/automation)
 
 ## 7. Monitoring
 * The observability layer that tracks system health, performance, and uptime.

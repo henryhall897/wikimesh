@@ -2,7 +2,7 @@
 title: Ansible User Bootstrap
 description: How to Set up an Ansible user on a New Machine for SSH connection
 published: true
-date: 2026-01-06T23:44:38.819Z
+date: 2026-01-07T00:01:18.247Z
 tags: infrastructure, public, selfhosted, home, automation, ansible, tutorials, ansible-user
 editor: markdown
 dateCreated: 2026-01-06T17:28:56.851Z
@@ -51,11 +51,19 @@ In practice, this is automated via an Ansible bootstrap role.
 
 `sudo useradd -m -s /bin/bash ansible`
 
-#### Verify
+### 2. Set Password: 
+
+`sudo usermod ansible -p <password>`
+
+### 3. Unlock Account:
+
+`sudo passwd -u ansible`
+
+### 4. Verify
 
 `id ansible`
 
-### 2. Create the SSH Directory
+### 5. Create the SSH Directory
 
 ```bash
 sudo mkdir -p /home/ansible/.ssh
@@ -63,7 +71,7 @@ sudo chmod 700 /home/ansible/.ssh
 sudo chown ansible:ansible /home/ansible/.ssh
 ```
 
-### 3. Install the Controller SSH Key
+### 6. Install the Controller SSH Key
 
 Copy the contents of `ansible-controller.pub` into:
 
@@ -84,7 +92,7 @@ sudo chown ansible:ansible /home/ansible/.ssh/authorized_keys
 
 `authorized_keys` must contain the full **public key**, not a **filename**.
 
-### 4. Grant Passwordless Sudo
+### 7. Grant Passwordless Sudo
 
 #### Create a sudoers file:
 
@@ -106,21 +114,41 @@ sudo chmod 440 /etc/sudoers.d/ansible
 sudo visudo -cf /etc/sudoers.d/ansible
 ```
 
-### 5. Allow Ansible through Firewall (UFW)
+### 8. Allow Ansible through Firewall (UFW)
 
 ```bash
 sudo ufw allow in on eth0 from <ANSIBLE_MACHINE_IP> to any port 22 proto tcp comment 'SSH from Ansible controller'
+sudo ufw reload
 ```
 
-**Reload firewall**: 
+### 9. Update /etc/ssh/sshd_config
+
+```bash 
+sudo nano /etc/ssh/sshd_config
+```
+
+Ensure values are set:
 
 ```bash
-sudo ufw reload
+PubkeyAuthentication yes
+AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2
+PasswordAuthentication no
+UsePAM no
+ChallengeResponseAuthentication no
+AllowUsers <your-account> ansible
 ```
 
 ## Post-Bootstrap
 
 ### Verify connectivity:
+
+On Machine Expecting SSH connection, log SSH attempts for better debugging. 
+
+```bash
+sudo journalctl -u ssh -f
+```
+
+On Ansible Machine, run the ping.yaml playbook to test connection. 
 
 ```bash
 ansible-playbook playbooks/ping.yaml

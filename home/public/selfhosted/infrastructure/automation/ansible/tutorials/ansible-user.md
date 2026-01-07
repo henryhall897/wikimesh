@@ -2,7 +2,7 @@
 title: Ansible User Bootstrap
 description: How to Set up an Ansible user on a New Machine for SSH connection
 published: true
-date: 2026-01-07T00:01:18.247Z
+date: 2026-01-07T00:05:20.424Z
 tags: infrastructure, public, selfhosted, home, automation, ansible, tutorials, ansible-user
 editor: markdown
 dateCreated: 2026-01-06T17:28:56.851Z
@@ -151,12 +151,19 @@ sudo journalctl -u ssh -f
 On Ansible Machine, run the ping.yaml playbook to test connection. 
 
 ```bash
-ansible-playbook playbooks/ping.yaml
+ansible-playbook playbooks/ping.yaml -v 
 ```
 
 All hosts should return:
 
-`pong`
+```bash
+TASK [Ansible ping] **************************************************************
+ok: [computer1] => {"changed": false, "ping": "pong"}
+ok: [computer2] => {"changed": false, "ping": "pong"}
+ok: [computer3] => {"changed": false, "ping": "pong"}
+ok: [computer4] => {"changed": false, "ping": "pong"}
+ok: [computer5] => {"changed": false, "ping": "pong"}
+```
 
 ## Security Notes
 

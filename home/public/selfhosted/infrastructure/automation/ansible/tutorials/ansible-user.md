@@ -2,7 +2,7 @@
 title: Ansible User Bootstrap
 description: How to Set up an Ansible user on a New Machine for SSH connection
 published: true
-date: 2026-01-07T00:05:20.424Z
+date: 2026-01-07T18:04:33.824Z
 tags: infrastructure, public, selfhosted, home, automation, ansible, tutorials, ansible-user
 editor: markdown
 dateCreated: 2026-01-06T17:28:56.851Z
@@ -117,7 +117,7 @@ sudo visudo -cf /etc/sudoers.d/ansible
 ### 8. Allow Ansible through Firewall (UFW)
 
 ```bash
-sudo ufw allow in on eth0 from <ANSIBLE_MACHINE_IP> to any port 22 proto tcp comment 'SSH from Ansible controller'
+sudo ufw allow in from <ANSIBLE_MACHINE_IP> to any port 22 proto tcp comment 'SSH from Ansible controller'
 sudo ufw reload
 ```
 
